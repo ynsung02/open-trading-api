@@ -1,0 +1,2 @@
+round_trip_id,timestamp,symbol,side,order_no,requested_price,requested_qty,filled_qty,average_filled_price,remaining_qty,rejected_qty,cancelled,status,buy_average_price,sell_average_price,realized_profit_krw
+1,2026-06-22T14:42:48+09:00,005930,BUY,0000029504,350000,1,1,350000.0,0,0,N,FILLED,350000.0,,

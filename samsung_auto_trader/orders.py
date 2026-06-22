@@ -5,7 +5,7 @@ from enum import Enum
 import logging
 from typing import Any
 
-from api_client import KISApiClient
+from api_client import KISApiClient, KISOrderError
 
 
 class OrderSide(str, Enum):
@@ -24,7 +24,13 @@ class OrderReceipt:
 
 
 class OrderClient:
-    def __init__(self, api_client: KISApiClient, account_no: str, account_prod: str, logger: logging.Logger) -> None:
+    def __init__(
+        self,
+        api_client: KISApiClient,
+        account_no: str,
+        account_prod: str,
+        logger: logging.Logger,
+    ) -> None:
         self._api_client = api_client
         self._account_no = account_no
         self._account_prod = account_prod
@@ -65,7 +71,7 @@ class OrderClient:
         output = response.output or {}
         order_no = str(output.get("ODNO", "")).strip()
         if not order_no:
-            raise RuntimeError(f"Order number missing in response: {response.raw}")
+            raise KISOrderError("주문 결과가 불명확합니다. 주문내역을 확인하세요.")
 
         return OrderReceipt(
             order_no=order_no,

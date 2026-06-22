@@ -157,6 +157,9 @@ KIS/
 .master/
 .kis_token*.json
 samsung_auto_trader/token_cache.json
+samsung_auto_trader/token_cache.json.tmp
+samsung_auto_trader/runtime_state.json
+samsung_auto_trader/runtime_state.json.tmp
 samsung_auto_trader/*.log
 samsung_auto_trader/__pycache__/
 

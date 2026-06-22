@@ -1,0 +1,257 @@
+2026-06-22 14:47:10,370 [INFO] 프로그램 시작: paper-only / REST-only / symbol=005930
+2026-06-22 14:47:10,372 [INFO] 로컬 runtime_state.json을 초기화했습니다.
+2026-06-22 14:47:10,373 [INFO] 자동매매 시작: state=BUY_PENDING, completed=0/3
+2026-06-22 14:47:10,374 [INFO] 토큰 재사용: 유효한 파일 캐시를 사용합니다.
+2026-06-22 14:47:10,374 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 14:47:10,645 [INFO] BUY 주문 상태: order_no=0000029504, status=FILLED, filled=1, remaining=0
+2026-06-22 14:47:10,646 [INFO] 거래 기록 저장: trades_20260622.csv
+2026-06-22 14:47:10,646 [INFO] 매수 체결 완료: order_no=0000029504, qty=1, avg=350000.0
+2026-06-22 14:47:10,647 [INFO] 상태 갱신: BUY_PENDING -> HOLDING (왕복 0/3)
+2026-06-22 14:47:10,648 [INFO] 다음 상태 확인까지 2초 대기
+2026-06-22 14:47:12,649 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:47:12,649 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 14:47:12,736 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:47:12,739 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-balance
+2026-06-22 14:47:12,808 [WARNING] 매도 전 잔고 조회 실패: KIS error EGW00201: 초당 거래건수를 초과하였습니다. (path=/uapi/domestic-stock/v1/trading/inquire-balance)
+2026-06-22 14:47:12,809 [INFO] 상태 갱신: HOLDING -> HOLDING (왕복 0/3)
+2026-06-22 14:47:12,809 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 14:48:12,810 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:48:12,810 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 14:48:13,220 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:48:13,220 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-balance
+2026-06-22 14:48:13,292 [WARNING] 매도 전 잔고 조회 실패: KIS error EGW00201: 초당 거래건수를 초과하였습니다. (path=/uapi/domestic-stock/v1/trading/inquire-balance)
+2026-06-22 14:48:13,294 [INFO] 상태 갱신: HOLDING -> HOLDING (왕복 0/3)
+2026-06-22 14:48:13,294 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 14:49:13,294 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:49:13,294 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 14:49:13,566 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:49:13,567 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-balance
+2026-06-22 14:49:13,654 [WARNING] 매도 전 잔고 조회 실패: KIS error EGW00201: 초당 거래건수를 초과하였습니다. (path=/uapi/domestic-stock/v1/trading/inquire-balance)
+2026-06-22 14:49:13,655 [INFO] 상태 갱신: HOLDING -> HOLDING (왕복 0/3)
+2026-06-22 14:49:13,655 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 14:50:13,656 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:50:13,656 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 14:50:13,900 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:50:13,901 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-balance
+2026-06-22 14:50:13,968 [WARNING] 매도 전 잔고 조회 실패: KIS error EGW00201: 초당 거래건수를 초과하였습니다. (path=/uapi/domestic-stock/v1/trading/inquire-balance)
+2026-06-22 14:50:13,969 [INFO] 상태 갱신: HOLDING -> HOLDING (왕복 0/3)
+2026-06-22 14:50:13,970 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 14:51:13,970 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:51:13,970 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 14:51:23,473 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:51:23,473 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-balance
+2026-06-22 14:51:32,501 [INFO] 잔고/보유 조회 완료: 보유 종목 1건
+2026-06-22 14:51:32,502 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:51:32,502 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/quotations/inquire-price
+2026-06-22 14:51:38,584 [INFO] 현재가 조회: 005930 / 352,750원
+2026-06-22 14:51:38,584 [INFO] 매도 주문 요청: symbol=005930, qty=1, price=354,750
+2026-06-22 14:51:38,584 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 14:51:38,585 [INFO] API 호출 [POST] /uapi/domestic-stock/v1/trading/order-cash
+2026-06-22 14:51:44,104 [ERROR] 매도 주문 실패: KIS order rejected: 40030000: 모의투자 주문처리가 안되었습니다(호가단위 오류)
+2026-06-22 14:51:44,105 [INFO] 상태 갱신: HOLDING -> FAILED (왕복 0/3)
+2026-06-22 14:51:44,105 [INFO] 자동매매 종료 상태: FAILED
+2026-06-22 14:51:44,105 [INFO] 최종 상태: FAILED, 왕복 완료=0/3
+2026-06-22 15:00:03,625 [INFO] 프로그램 시작: paper-only / REST-only / symbol=005930
+2026-06-22 15:00:03,625 [INFO] 로컬 runtime_state.json을 초기화했습니다.
+2026-06-22 15:00:03,626 [INFO] 자동매매 시작: state=BUY_PENDING, completed=0/3
+2026-06-22 15:00:03,626 [INFO] 토큰 재사용: 유효한 파일 캐시를 사용합니다.
+2026-06-22 15:00:03,626 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:00:13,869 [WARNING] 조회 API 통신 오류: HTTPSConnectionPool(host='openapivts.koreainvestment.com', port=29443): Read timed out. (read timeout=10.0) (남은 재시도 1회)
+2026-06-22 15:00:14,870 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:00:14,870 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:00:25,105 [WARNING] 조회 API 통신 오류: HTTPSConnectionPool(host='openapivts.koreainvestment.com', port=29443): Read timed out. (read timeout=10.0) (남은 재시도 0회)
+2026-06-22 15:00:27,106 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:00:27,106 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:00:27,422 [INFO] BUY 주문 상태: order_no=0000029504, status=FILLED, filled=1, remaining=0
+2026-06-22 15:00:27,422 [INFO] 거래 기록 저장: trades_20260622.csv
+2026-06-22 15:00:27,423 [INFO] 매수 체결 완료: order_no=0000029504, qty=1, avg=350000.0
+2026-06-22 15:00:27,423 [INFO] 상태 갱신: BUY_PENDING -> HOLDING (왕복 0/3)
+2026-06-22 15:00:27,423 [INFO] 다음 상태 확인까지 2초 대기
+2026-06-22 15:00:29,424 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:00:29,424 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:00:29,511 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:00:29,511 [INFO] API 호출 간격 보호: 1.01초 대기
+2026-06-22 15:00:30,524 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-balance
+2026-06-22 15:00:33,945 [INFO] 잔고/보유 조회 완료: 보유 종목 1건
+2026-06-22 15:00:33,945 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:00:33,945 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/quotations/inquire-price
+2026-06-22 15:00:34,020 [INFO] 현재가 조회: 005930 / 352,500원
+2026-06-22 15:00:34,021 [INFO] 매도 주문 요청: symbol=005930, qty=1, price=354,500
+2026-06-22 15:00:34,021 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:00:34,021 [INFO] API 호출 간격 보호: 1.02초 대기
+2026-06-22 15:00:35,045 [INFO] API 호출 [POST] /uapi/domestic-stock/v1/trading/order-cash
+2026-06-22 15:00:35,129 [INFO] 매도 주문 접수: order_no=0000037148
+2026-06-22 15:00:35,130 [INFO] 상태 갱신: HOLDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:00:35,130 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:01:35,131 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:01:35,131 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:01:41,808 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:01:41,808 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:01:41,809 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:01:41,809 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:02:41,810 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:02:41,810 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:02:49,213 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:02:49,214 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:02:49,214 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:02:49,215 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:03:49,215 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:03:49,215 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:03:53,395 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:03:53,396 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:03:53,396 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:03:53,397 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:04:53,397 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:04:53,397 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:05:00,613 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:05:00,614 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:05:00,614 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:05:00,615 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:06:00,615 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:06:00,615 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:06:01,227 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:06:01,227 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:06:01,228 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:06:01,228 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:07:01,228 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:07:01,229 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:07:07,208 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:07:07,209 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:07:07,209 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:07:07,209 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:08:07,210 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:08:07,210 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:08:07,627 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:08:07,627 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:08:07,628 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:08:07,633 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:09:07,634 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:09:07,634 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:09:07,933 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:09:07,933 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:09:07,934 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:09:07,934 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:10:07,934 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:10:07,934 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:10:08,183 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:10:08,183 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:10:08,184 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:10:08,184 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:11:08,185 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:11:08,185 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:11:17,179 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:11:17,179 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:11:17,180 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:11:17,180 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:12:17,181 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:12:17,181 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:12:17,438 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:12:17,438 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:12:17,439 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:12:17,439 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:13:17,440 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:13:17,440 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:13:23,384 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:13:23,384 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:13:23,385 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:13:23,385 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:14:23,385 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:14:23,386 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:14:24,146 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:14:24,146 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:14:24,147 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:14:24,147 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:15:24,147 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:15:24,148 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:15:24,410 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:15:24,410 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:15:24,411 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:15:24,411 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:16:24,411 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:16:24,412 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:16:32,140 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:16:32,140 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:16:32,141 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:16:32,141 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:17:32,141 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:17:32,142 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:17:32,422 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:17:32,422 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:17:32,423 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:17:32,423 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:18:32,423 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:18:32,424 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:18:32,743 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:18:32,744 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:18:32,745 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:18:32,745 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:19:32,746 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:19:32,746 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:19:33,007 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:19:33,008 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:19:33,008 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:19:33,008 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:20:33,009 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:20:33,009 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:20:33,267 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:20:33,267 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:20:33,268 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:20:33,268 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:21:33,268 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:21:33,269 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:21:33,525 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:21:33,526 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:21:33,526 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/3)
+2026-06-22 15:21:33,527 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:21:37,093 [INFO] 사용자 중단으로 상태를 보존하고 종료합니다.
+2026-06-22 15:21:42,399 [INFO] 프로그램 시작: paper-only / REST-only / symbol=005930
+2026-06-22 15:21:42,400 [INFO] 로컬 runtime_state.json을 초기화했습니다.
+2026-06-22 15:21:42,400 [INFO] 자동매매 시작: state=BUY_PENDING, completed=0/1
+2026-06-22 15:21:42,401 [INFO] 토큰 재사용: 유효한 파일 캐시를 사용합니다.
+2026-06-22 15:21:42,401 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:21:47,176 [INFO] BUY 주문 상태: order_no=0000029504, status=FILLED, filled=1, remaining=0
+2026-06-22 15:21:47,176 [INFO] 거래 기록 저장: trades_20260622.csv
+2026-06-22 15:21:47,177 [INFO] 매수 체결 완료: order_no=0000029504, qty=1, avg=350000.0
+2026-06-22 15:21:47,177 [INFO] 상태 갱신: BUY_PENDING -> HOLDING (왕복 0/1)
+2026-06-22 15:21:47,177 [INFO] 다음 상태 확인까지 2초 대기
+2026-06-22 15:21:49,178 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:21:49,178 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:21:52,679 [INFO] 상태 갱신: HOLDING -> SELL_PENDING (왕복 0/1)
+2026-06-22 15:21:52,680 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:22:52,680 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:22:52,680 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:22:58,679 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:22:58,680 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:22:58,681 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/1)
+2026-06-22 15:22:58,681 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:23:58,681 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:23:58,682 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:24:02,252 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:24:02,252 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:24:02,253 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/1)
+2026-06-22 15:24:02,253 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:25:02,253 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:25:02,254 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:25:02,724 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:25:02,725 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:25:02,725 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/1)
+2026-06-22 15:25:02,726 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:26:02,726 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:26:02,726 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:26:02,981 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:26:02,982 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:26:02,982 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/1)
+2026-06-22 15:26:02,982 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:27:02,983 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:27:02,983 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:27:08,658 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:27:08,658 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:27:08,659 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/1)
+2026-06-22 15:27:08,659 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:28:08,659 [INFO] 토큰 재사용: 메모리 캐시를 사용합니다.
+2026-06-22 15:28:08,660 [INFO] API 호출 [GET] /uapi/domestic-stock/v1/trading/inquire-daily-ccld
+2026-06-22 15:28:09,571 [INFO] SELL 주문 상태: order_no=0000037148, status=PENDING, filled=0, remaining=1
+2026-06-22 15:28:09,571 [INFO] 매도 체결 대기: order_no=0000037148, filled=0, remaining=1
+2026-06-22 15:28:09,572 [INFO] 상태 갱신: SELL_PENDING -> SELL_PENDING (왕복 0/1)
+2026-06-22 15:28:09,572 [INFO] 다음 상태 확인까지 60초 대기
+2026-06-22 15:28:37,181 [INFO] 사용자 중단으로 상태를 보존하고 종료합니다.

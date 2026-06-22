@@ -12,6 +12,7 @@ class Position:
     symbol: str
     name: str
     quantity: int
+    sellable_quantity: int
     average_price: float
     current_price: float
     pnl: float
@@ -94,6 +95,7 @@ class AccountClient:
                     symbol=str(item.get("pdno", "")).strip(),
                     name=str(item.get("prdt_name", "")).strip(),
                     quantity=quantity,
+                    sellable_quantity=self._to_int(item.get("ord_psbl_qty", item.get("hldg_qty"))),
                     average_price=self._to_float(item.get("pchs_avg_pric")),
                     current_price=self._to_float(item.get("prpr")),
                     pnl=self._to_float(item.get("evlu_pfls_amt")),
